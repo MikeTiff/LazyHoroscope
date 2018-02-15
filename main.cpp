@@ -9,12 +9,12 @@ int main()
 {
   string First, Last;
   int Lucky = 0, Fame = 0, Love = 0;
-  cout<< "What is your fist name?\n";
+  cout<< "What is your first name?\n";
   cin>> First;
   cout<< "What is your last name?\n";
   cin>> Last;
   cout<< "Welcome, "<<First[0]<<"."<<Last[0]<<"., here is your fortune...\n";
-  Lucky = ((First.length())+Last.length());
+  Lucky = First.length();
   cout<< "your lucky number is "<< Lucky<< endl;
   Fame = First[0];
   int Lover = Last.length();
